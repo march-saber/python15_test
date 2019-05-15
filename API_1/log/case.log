@@ -1,0 +1,80 @@
+case - INFO - 2019-05-09 16:06:31,491 - 测试报错 - [logger.py:32]
+case - ERROR - 2019-05-09 16:06:31,492 - 测试数据 - [logger.py:33]
+case - WARNING - 2019-05-09 16:06:31,492 - 测试结果 - [logger.py:34]
+case - CRITICAL - 2019-05-09 16:06:31,492 - 测试结束 - [logger.py:35]
+API_1.testcases.test_login - INFO - 2019-05-09 16:06:33,728 - 准备测试前置 - [test_login.py:19]
+API_1.testcases.test_login - INFO - 2019-05-09 16:06:33,729 - 开始测试：输入已经注册过的手机号注册 - [test_login.py:26]
+API_1.testcases.test_login - INFO - 2019-05-09 16:06:33,834 - 测试结束：输入已经注册过的手机号注册 - [test_login.py:35]
+API_1.testcases.test_login - INFO - 2019-05-09 16:06:33,835 - 开始测试：登录成功 - [test_login.py:26]
+API_1.testcases.test_login - INFO - 2019-05-09 16:06:33,920 - 测试结束：登录成功 - [test_login.py:35]
+API_1.testcases.test_login - INFO - 2019-05-09 16:06:33,920 - 开始测试：注册成功 - [test_login.py:26]
+API_1.testcases.test_login - ERROR - 2019-05-09 16:06:33,990 - 报错了：'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+ - [test_login.py:33]
+API_1.testcases.test_login - INFO - 2019-05-09 16:06:33,990 - 测试后置处理 - [test_login.py:39]
+case - INFO - 2019-05-09 16:38:52,089 - 测试报错 - [logger.py:32]
+case - ERROR - 2019-05-09 16:38:52,089 - 测试数据 - [logger.py:33]
+case - WARNING - 2019-05-09 16:38:52,089 - 测试结果 - [logger.py:34]
+case - CRITICAL - 2019-05-09 16:38:52,089 - 测试结束 - [logger.py:35]
+test_login - INFO - 2019-05-09 16:38:53,449 - 准备测试前置 - [test_login.py:19]
+test_login - INFO - 2019-05-09 16:38:53,449 - 开始测试：输入已经注册过的手机号注册 - [test_login.py:26]
+test_login - INFO - 2019-05-09 16:38:53,532 - 测试结束：输入已经注册过的手机号注册 - [test_login.py:35]
+test_login - INFO - 2019-05-09 16:38:53,533 - 开始测试：登录成功 - [test_login.py:26]
+test_login - INFO - 2019-05-09 16:38:53,599 - 测试结束：登录成功 - [test_login.py:35]
+test_login - INFO - 2019-05-09 16:38:53,600 - 开始测试：注册成功 - [test_login.py:26]
+test_login - ERROR - 2019-05-09 16:38:53,660 - 报错了：'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+ - [test_login.py:33]
+test_login - INFO - 2019-05-09 16:38:53,661 - 测试后置处理 - [test_login.py:39]
+case - INFO - 2019-05-09 16:45:49,974 - 测试报错 - [logger.py:32]
+case - ERROR - 2019-05-09 16:45:49,975 - 测试数据 - [logger.py:33]
+case - WARNING - 2019-05-09 16:45:49,975 - 测试结果 - [logger.py:34]
+case - CRITICAL - 2019-05-09 16:45:49,975 - 测试结束 - [logger.py:35]
+case - INFO - 2019-05-09 16:47:36,831 - 测试报错 - [logger.py:32]
+case - ERROR - 2019-05-09 16:47:36,831 - 测试数据 - [logger.py:33]
+case - WARNING - 2019-05-09 16:47:36,831 - 测试结果 - [logger.py:34]
+case - CRITICAL - 2019-05-09 16:47:36,831 - 测试结束 - [logger.py:35]
+case - INFO - 2019-05-09 16:48:31,451 - 测试报错 - [logger.py:32]
+case - ERROR - 2019-05-09 16:48:31,451 - 测试数据 - [logger.py:33]
+case - WARNING - 2019-05-09 16:48:31,451 - 测试结果 - [logger.py:34]
+case - CRITICAL - 2019-05-09 16:48:31,451 - 测试结束 - [logger.py:35]
+case - INFO - 2019-05-09 16:49:28,705 - 测试报错 - [logger.py:32]
+case - ERROR - 2019-05-09 16:49:28,706 - 测试数据 - [logger.py:33]
+case - WARNING - 2019-05-09 16:49:28,706 - 测试结果 - [logger.py:34]
+case - CRITICAL - 2019-05-09 16:49:28,706 - 测试结束 - [logger.py:35]
+test_login - INFO - 2019-05-09 16:49:29,977 - 准备测试前置 - [test_login.py:19]
+test_login - INFO - 2019-05-09 16:49:29,977 - 开始测试：输入已经注册过的手机号注册 - [test_login.py:26]
+test_login - INFO - 2019-05-09 16:49:30,056 - 测试结束：输入已经注册过的手机号注册 - [test_login.py:35]
+test_login - INFO - 2019-05-09 16:49:30,056 - 开始测试：登录成功 - [test_login.py:26]
+test_login - INFO - 2019-05-09 16:49:30,135 - 测试结束：登录成功 - [test_login.py:35]
+test_login - INFO - 2019-05-09 16:49:30,135 - 开始测试：注册成功 - [test_login.py:26]
+test_login - ERROR - 2019-05-09 16:49:30,223 - 报错了：'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+ - [test_login.py:33]
+test_login - INFO - 2019-05-09 16:49:30,224 - 测试后置处理 - [test_login.py:39]
+case - INFO - 2019-05-09 16:49:41,102 - 测试报错 - [logger.py:32]
+case - ERROR - 2019-05-09 16:49:41,102 - 测试数据 - [logger.py:33]
+case - WARNING - 2019-05-09 16:49:41,102 - 测试结果 - [logger.py:34]
+case - CRITICAL - 2019-05-09 16:49:41,103 - 测试结束 - [logger.py:35]
+test_login - INFO - 2019-05-09 16:49:42,009 - 准备测试前置 - [test_login.py:19]
+test_login - INFO - 2019-05-09 16:49:42,009 - 开始测试：输入已经注册过的手机号注册 - [test_login.py:26]
+test_login - INFO - 2019-05-09 16:49:42,081 - 测试结束：输入已经注册过的手机号注册 - [test_login.py:35]
+test_login - INFO - 2019-05-09 16:49:42,081 - 开始测试：登录成功 - [test_login.py:26]
+test_login - INFO - 2019-05-09 16:49:42,161 - 测试结束：登录成功 - [test_login.py:35]
+test_login - INFO - 2019-05-09 16:49:42,161 - 开始测试：注册成功 - [test_login.py:26]
+test_login - ERROR - 2019-05-09 16:49:42,232 - 报错了：'{"status":1,"code":"10001","data":null,"msg":"注册成功"}' != '{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}'
+- {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^           ---                       --
++ {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         +++                       ++++++
+ - [test_login.py:33]
+test_login - INFO - 2019-05-09 16:49:42,233 - 测试后置处理 - [test_login.py:39]
