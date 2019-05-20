@@ -1,7 +1,7 @@
 """
 1，完成do_excel类的封装支持读和写，理解Case类的设计
 2，结合http_requests完成注册，登录，充值接口的请求
-3，尝试引入unittest+ddt 来完成以上接口的测试用例"""
+3，尝试引入unittest+ddt "来完成以上接口的测试用例"""
 
 import requests
 from API_1.common.config import config
@@ -46,6 +46,7 @@ class HttpRequests1:
 
         print("请求response：", resp.text)
         return resp
+
 
 
 

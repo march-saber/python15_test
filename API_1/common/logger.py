@@ -27,9 +27,10 @@ def get_logger(name):
     logger.addHandler(file_handler)
     return logger
 
-logger = get_logger('case')
-logger.debug("测试开始")
-logger.info("测试报错")
-logger.error("测试数据")
-logger.warning("测试结果")
-logger.critical("测试结束")
+if __name__ == '__main__':
+    logger = get_logger('case')
+    logger.debug("测试开始")
+    logger.info("测试报错")
+    logger.error("测试数据")
+    logger.warning("测试结果")
+    logger.critical("测试结束")
